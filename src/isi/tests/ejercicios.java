@@ -11,7 +11,11 @@ public class ejercicios {
 	public static int countPositive (int[] x){
 		int count = 0;
 		for (int i=0; i < x.length; i++){
-			if (x[i] >= 0){//para que pase los test hay que quitar el igual
+			/**El fallo está en que ahora mismo está contando 
+			 * los ceros tambien como números positivos.
+			 * Para que pase los test hay que quitar el igual
+			 */
+			if (x[i] >= 0){
 				count++;
 			}
 		}
