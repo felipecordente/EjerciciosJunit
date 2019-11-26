@@ -7,4 +7,4 @@ Luego para cada uno de los ejercicios he creado un Junit Test Case, fichero en e
 
 Por ultimo he creado un Junit Test Suite, llamado AllTest.java, el cual ejecuta todos los test.
 
-
+IMPORTANTE: la versión del JRE System Library, es la de Java 11.
